@@ -1,0 +1,321 @@
+{
+    "_comments": "",
+    "chart": {
+        "theme": "gammel",
+        "showcanvasborder": "1",
+            "canvasborderthickness": "0.4",
+            "canvasborderalpha": "50",
+            "showXAxisLine": "0",
+            "showformbtn": "1",
+            "formAction": "#",
+            "submitdataasxml": "1"
+    },
+    "categories": [
+        {
+            "verticallinecolor": "666666",
+            "verticallinethickness": "1",
+            "alpha": "40",
+            "category": [
+                
+            ]
+        }
+    ],
+    "dataset": [
+        {
+            "drawline": "0",
+            "seriesname": "Sealed Sources",
+            "color": "#6baa01",
+            "anchorsides": "3",
+            "anchorradius": "4",
+            "anchorbgcolor": "#6baa01",
+            "anchorbordercolor": "#6baa01",
+            "data": [
+                {
+                    "id": "sealed_1",
+                    "y": "559",
+                    "x": "714"
+                },
+                {
+                    "id": "sealed_2",
+                    "y": "293",
+                    "x": "988"
+                },
+                {
+                    "id": "sealed_3",
+                    "y": "231",
+                    "x": "970"
+                },
+                {
+                    "id": "sealed_4",
+                    "y": "528",
+                    "x": "142"
+                },
+                {
+                    "id": "sealed_5",
+                    "y": "95",
+                    "x": "800"
+                },
+                {
+                    "id": "sealed_6",
+                    "y": "515",
+                    "x": "813"
+                },
+                {
+                    "id": "sealed_7",
+                    "y": "444",
+                    "x": "928"
+                },
+                {
+                    "id": "sealed_8",
+                    "y": "592",
+                    "x": "238"
+                },
+                {
+                    "id": "sealed_9",
+                    "y": "229",
+                    "x": "959"
+                },
+                {
+                    "id": "sealed_10",
+                    "y": "238",
+                    "x": "521"
+                },
+                {
+                    "id": "sealed_11",
+                    "y": "285",
+                    "x": "222"
+                },
+                {
+                    "id": "sealed_12",
+                    "y": "524",
+                    "x": "863"
+                },
+                {
+                    "id": "sealed_13",
+                    "y": "422",
+                    "x": "820"
+                },
+                {
+                    "id": "sealed_14",
+                    "y": "344",
+                    "x": "894"
+                },
+                {
+                    "id": "sealed_15",
+                    "y": "510",
+                    "x": "800"
+                },
+                {
+                    "id": "sealed_16",
+                    "y": "132",
+                    "x": "785"
+                },
+                {
+                    "id": "sealed_17",
+                    "y": "381",
+                    "x": "214"
+                },
+                {
+                    "id": "sealed_18",
+                    "y": "210",
+                    "x": "961"
+                },
+                {
+                    "id": "sealed_19",
+                    "y": "496",
+                    "x": "575"
+                },
+                {
+                    "id": "sealed_20",
+                    "y": "330",
+                    "x": "847"
+                },
+                {
+                    "id": "sealed_21",
+                    "y": "436",
+                    "x": "893"
+                },
+                {
+                    "id": "sealed_22",
+                    "y": "406",
+                    "x": "157"
+                },
+                {
+                    "id": "sealed_23",
+                    "y": "125",
+                    "x": "349"
+                },
+                {
+                    "id": "sealed_24",
+                    "y": "450",
+                    "x": "818"
+                },
+                {
+                    "id": "sealed_25",
+                    "y": "455",
+                    "x": "615"
+                },
+                {
+                    "id": "sealed_26",
+                    "y": "328",
+                    "x": "256"
+                },
+                {
+                    "id": "sealed_27",
+                    "y": "188",
+                    "x": "460"
+                },
+                {
+                    "id": "sealed_28",
+                    "y": "565",
+                    "x": "350"
+                },
+                {
+                    "id": "sealed_29",
+                    "y": "149",
+                    "x": "582"
+                },
+                {
+                    "id": "sealed_30",
+                    "y": "425",
+                    "x": "970"
+                }
+            ]
+        },
+        {
+            "seriesname": "Unsealed Source",
+            "color": "#f8bd19",
+            "anchorsides": "4",
+            "anchorradius": "4",
+            "anchorbgcolor": "#f8bd19",
+            "anchorbordercolor": "#f8bd19",
+            "data": [
+                {
+                    "id": "unsealed_1",
+                    "y": "335",
+                    "x": "156"
+                },
+                {
+                    "id": "unsealed_2",
+                    "y": "339",
+                    "x": "927"
+                },
+                {
+                    "id": "unsealed_3",
+                    "y": "328",
+                    "x": "847"
+                },
+                {
+                    "id": "unsealed_4",
+                    "y": "1",
+                    "x": "177"
+                },
+                {
+                    "id": "unsealed_5",
+                    "y": "246",
+                    "x": "175"
+                },
+                {
+                    "id": "unsealed_6",
+                    "y": "368",
+                    "x": "441"
+                },
+                {
+                    "id": "unsealed_7",
+                    "y": "146",
+                    "x": "200"
+                },
+                {
+                    "id": "unsealed_8",
+                    "y": "347",
+                    "x": "482"
+                },
+                {
+                    "id": "unsealed_9",
+                    "y": "1",
+                    "x": "463"
+                },
+                {
+                    "id": "unsealed_10",
+                    "y": "63",
+                    "x": "440"
+                },
+                {
+                    "id": "unsealed_11",
+                    "y": "77",
+                    "x": "211"
+                },
+                {
+                    "id": "unsealed_12",
+                    "y": "108",
+                    "x": "824"
+                },
+                {
+                    "id": "unsealed_13",
+                    "y": "44",
+                    "x": "850"
+                },
+                {
+                    "id": "unsealed_14",
+                    "y": "77",
+                    "x": "712"
+                },
+                {
+                    "id": "unsealed_15",
+                    "y": "15",
+                    "x": "199"
+                },
+                {
+                    "id": "unsealed_16",
+                    "y": "333",
+                    "x": "836"
+                },
+                {
+                    "id": "unsealed_17",
+                    "y": "31",
+                    "x": "482"
+                },
+                {
+                    "id": "unsealed_18",
+                    "y": "90",
+                    "x": "604"
+                },
+                {
+                    "id": "unsealed_19",
+                    "y": "294",
+                    "x": "716"
+                },
+                {
+                    "id": "unsealed_20",
+                    "y": "241",
+                    "x": "870"
+                },
+                {
+                    "id": "unsealed_21",
+                    "y": "258",
+                    "x": "421"
+                },
+                {
+                    "id": "unsealed_22",
+                    "y": "186",
+                    "x": "456"
+                },
+                {
+                    "id": "unsealed_23",
+                    "y": "255",
+                    "x": "327"
+                },
+                {
+                    "id": "unsealed_24",
+                    "y": "203",
+                    "x": "995"
+                },
+                {
+                    "id": "unsealed_25",
+                    "y": "35",
+                    "x": "792"
+                }
+            ]
+        }
+    ]
+}

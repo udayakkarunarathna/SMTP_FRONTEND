@@ -1,0 +1,31 @@
+{
+    "chart": {
+        "theme": "gammel"
+    },
+    "data": [
+        {
+            "label": "Sealed Source",
+            "value": "290"
+        },
+        {
+            "label": "Unsealed Source",
+            "value": "260"
+        },
+        {
+            "label": "Variable Unsealed",
+            "value": "180"
+        },
+        {
+            "label": "Nuclear materials",
+            "value": "140"
+        },
+        {
+            "label": "Radiation Generators",
+            "value": "115"
+        },
+        {
+            "label": "Related items",
+            "value": "100"
+        }
+    ]
+}

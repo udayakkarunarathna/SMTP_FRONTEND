@@ -1,0 +1,109 @@
+<div class="container">
+  <div class="raw">
+    <div class="p-2 text-center">
+      <h4 class="mb-3">List Header</h4>
+    </div>
+  </div>
+
+  <div class="form-group row p-2">
+    <label for="DescFrn" class="col-sm-2 col-form-label">Description Frn</label>
+    <div class="col-sm-4">
+      <input
+        type="text"
+        class="form-control"
+        id="DescFrn"
+        placeholder="Description Frn"
+        [(ngModel)]="listHeaderModel.cmmListDescFrn"
+      />
+    </div>
+    <label for="DescNtv" class="col-sm-2 col-form-label">Description Ntv</label>
+    <div class="col-sm-4">
+      <input
+        type="text"
+        class="form-control"
+        id="DescNtv"
+        placeholder="Description Ntv"
+        [(ngModel)]="listHeaderModel.cmmListDescNtv"
+      />
+    </div>
+  </div>
+
+  <div class="form-group row p-2">
+    <label for="txtToEmail" class="col-sm-2 col-form-label">To</label>
+    <div class="col-sm-10">
+      <input
+        type="text"
+        class="form-control"
+        id="txtToEmail"
+        placeholder="Email User Name"
+        [(ngModel)]="listHeaderModel.toEmail"
+      />
+    </div>
+  </div>
+
+  <div class="form-group row p-2">
+    <label for="inputCc" class="col-sm-2 col-form-label">CC</label>
+    <div class="col-sm-10">
+      <input
+        type="text"
+        class="form-control"
+        id="inputCc"
+        placeholder="CC Email"
+        [(ngModel)]="listHeaderModel.ccEmail"
+      />
+    </div>
+  </div>
+
+  <div class="form-group row p-2">
+    <label for="inputBcc" class="col-sm-2 col-form-label">BCC</label>
+    <div class="col-sm-10">
+      <input
+        type="text"
+        class="form-control"
+        id="inputBcc"
+        placeholder="Email BCC"
+        [(ngModel)]="listHeaderModel.bccEmail"
+      />
+    </div>
+  </div>
+
+  <!-- <div class="form-group row">
+    <label for="inputFlag" class="col-sm-2 col-form-label">Active Flag</label>
+    <div class="col-sm-10">
+      <input
+        type="checkbox"
+        class="form-control"
+        id="inputFlag"
+        placeholder="Email BCC"
+        [(ngModel)]="listHeaderModel.activeFlag"
+      />
+    </div>
+  </div> -->
+
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" [(ngModel)]="listHeaderModel.activeFlag" /> Active
+      Flag
+    </label>
+  </div>
+
+  <div class="row mx-auto"></div>
+  <div class="row p-2" *ngIf="isEditMode">
+    <button
+      type="button"
+      class="btn btn-warning"
+      (click)="clickUpdateListHeader()"
+    >
+      Update
+    </button>
+  </div>
+  <div class="row p-2" *ngIf="!isEditMode">
+    <button
+      type="button"
+      class="btn btn-info"
+      (click)="clickCreateListHeader()"
+    >
+      Create
+    </button>
+  </div>
+</div>

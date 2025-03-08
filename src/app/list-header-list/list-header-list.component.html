@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="raw">
+    <div class="p-2 text-center">
+      <h4 class="mb-3">List Header List</h4>
+    </div>
+  </div>
+  <div class="raw">
+    <div class="p-2 text-right">
+      <button [routerLink]="['/header']" type="button" class="btn btn-info">
+        New
+      </button>
+    </div>
+  </div>
+  <div class="raw">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Description Frn</th>
+          <th scope="col">Description Ntv</th>
+          <th scope="col">To</th>
+          <th scope="col">CC</th>
+          <th scope="col">BCC</th>
+          <th scope="col">Flag</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of listHeaderList">
+          <th scope="row">{{ item.cmmListId }}</th>
+          <td>{{ item.cmmListDescFrn }}</td>
+          <td>{{ item.cmmListDescNtv }}</td>
+          <td>{{ item.toEmail }}</td>
+          <td>{{ item.ccEmail }}</td>
+          <td>{{ item.bccEmail }}</td>
+          <td>{{ item.activeFlag }}</td>
+          <td>
+            <button
+              [routerLink]="['/header']"
+              [queryParams]="{ id: item.cmmListId }"
+              type="button"
+              class="btn btn-link"
+            >
+              Edit
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

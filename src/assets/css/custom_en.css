@@ -20,7 +20,7 @@
   
   @font-face {
     font-family: "bahij";
-    src: url("../assets/fonts/BahijTheSansArabic-Plain.ttf")
+    src: url("../fonts/BahijTheSansArabic-Plain.ttf");
   }
   /* @font-face {
     font-family: 'bahij';
@@ -75,7 +75,7 @@
   
   body {
     font-family: "Bahij";
-    background-image: url(../assets/imgs/bg32blur.jpg);
+    background-image: url(../imgs/bg32blur.jpg);
     background-color: var(--white);
     background-attachment: fixed;
   }
@@ -525,14 +525,14 @@
   
   
   /* Login Page */
-  /* .loginPage {
+  .loginPage {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background: url("../assets/imgs/backgrounds/bg-green.svg");
+    background: url("../images/backgrounds/bg-green.svg");
     background-size: cover;
     background-position: center;
-  } */
+  }
   
   .login-box {
     background-color: rgba(255, 255, 255, 0.2);
